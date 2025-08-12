@@ -1,10 +1,10 @@
+import orjson
 """Core implementation of auto-coder"""
 
 import ast
 import re
 import subprocess
 import tempfile
-import json
 import asyncio
 from typing import Dict, Any, Optional, List, Tuple
 from pathlib import Path
@@ -66,12 +66,12 @@ class GeneratedCode:
     complexity_score: float = 0.0
     quality_score: float = 0.0
 class CodeGenerator:
-    """Advanced code generation system for OSA"""
+    """Advanced code generation system for MemCore"""
 
     def __init__(self, langchain_engine=None, config: Dict[str, Any]=None):
         self.config = config or {}
         self.langchain_engine = langchain_engine
-        self.logger = logging.getLogger('OSA-CodeGen')
+        self.logger = logging.getLogger('MemCore-CodeGen')
         self.templates = self._initialize_templates()
         self.analyzers = {ProgrammingLanguage.PYTHON: self._analyze_python, ProgrammingLanguage.JAVASCRIPT: self._analyze_javascript}
         self.formatters = {ProgrammingLanguage.PYTHON: self._format_python, ProgrammingLanguage.JAVASCRIPT: self._format_javascript}
@@ -230,7 +230,7 @@ class CodeGenerator:
         return variables
 
     async def self_modify(self, target_file: str, modification_request: str) -> bool:
-        """Self-modify OSA's own code"""
+        """Self-modify MemCore's own code"""
         self.logger.warning(f'Self-modification requested for {target_file}')
         if not self._is_safe_to_modify(target_file):
             self.logger.error('Self-modification blocked for safety')

@@ -3,14 +3,14 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "auto-coder"
+name = "codeforge"
 version = "0.1.0"
-description = "Extracted from OSA - Autonomous AI System"
+description = "Intelligent code generation and development automation platform"
 readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
 authors = [
-    {name = "OSA Contributors", email = "osa@omnimind.ai"},
+    {name = "CodeForge Contributors", email = "hello@codeforge.ai"},
 ]
 classifiers = [
     "Development Status :: 3 - Alpha",
@@ -20,10 +20,10 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/prakashgbid/auto-coder"
-Documentation = "https://prakashgbid.github.io/auto-coder"
-Repository = "https://github.com/prakashgbid/auto-coder"
-Issues = "https://github.com/prakashgbid/auto-coder/issues"
+Homepage = "https://github.com/prakashgbid/codeforge-ai"
+Documentation = "https://prakashgbid.github.io/codeforge-ai"
+Repository = "https://github.com/prakashgbid/codeforge-ai"
+Issues = "https://github.com/prakashgbid/codeforge-ai/issues"
 
 [tool.black]
 line-length = 100

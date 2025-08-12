@@ -1,7 +1,7 @@
-"""Tests for auto_coder"""
+"""Tests for memcore"""
 
 import pytest
-from auto_coder import AutoCoder
+from memcore import AutoCoder
 
 
 class TestAutoCoder:

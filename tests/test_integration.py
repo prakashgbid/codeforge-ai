@@ -1,7 +1,7 @@
-"""Integration tests for auto_coder"""
+"""Integration tests for memcore"""
 
 import pytest
-from auto_coder import AutoCoder
+from memcore import AutoCoder
 
 
 @pytest.mark.integration

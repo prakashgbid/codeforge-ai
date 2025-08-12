@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Advanced usage example for auto_coder"""
+"""Advanced usage example for memcore"""
 
 import asyncio
-from auto_coder import AutoCoder
+from memcore import AutoCoder
 
 
 async def advanced_example():

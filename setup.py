@@ -8,9 +8,9 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="auto-coder",
     version="0.1.0",
-    author="OSA Contributors",
+    author="MemCore Contributors",
     author_email="osa@omnimind.ai",
-    description="Advanced code generation system for OSA",
+    description="Advanced code generation system for MemCore",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/prakashgbid/auto-coder",

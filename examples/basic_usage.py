@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Basic usage example for auto_coder"""
+"""Basic usage example for memcore"""
 
-from auto_coder import AutoCoder
+from memcore import AutoCoder
 
 
 def main():
