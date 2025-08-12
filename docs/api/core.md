@@ -1,3 +1,6 @@
 # Core API Reference
 
-::: auto_coder.core
+::: codeforge.core
+    options:
+      show_source: true
+      show_bases: true
